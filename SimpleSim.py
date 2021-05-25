@@ -12,6 +12,7 @@ import logging
 
 from pathlib import Path
 
+DEBUG_LEVEL = logging.DEBUG
 
 def parse_gpx(file):
     tree = ET.parse(Path(file))
@@ -41,7 +42,7 @@ def get_logger(name) -> logging.Logger:
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
     ch = logging.StreamHandler()
-    ch.setLevel(logging.DEBUG)
+    ch.setLevel(DEBUG_LEVEL)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     ch.setFormatter(formatter)
     logger.addHandler(ch)
