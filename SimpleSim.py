@@ -152,20 +152,21 @@ def send_coords(coords, rate, address):
     except Exception as e:
         logger.error('Exception {} occured. Connection is not established, sender is closing.'.format(e))
         return
+    logger.info("Car ID {} starts its moving.".format(str(ID)))
     for coord in coords:
         # ID = 148822899220
         
-        msg = [
-            ID, # long long
-            time.time(), # long long
-            vType, # long long
-            vModel, 
-            coord[0], #double
-            coord[1], #double
-            coord[2], #double
-            coord[4], #double
-            coord[3] #double
-        ]
+        # msg = [
+        #     ID, # long long
+        #     time.time(), # long long
+        #     vType, # long long
+        #     vModel, 
+        #     coord[0], #double
+        #     coord[1], #double
+        #     coord[2], #double
+        #     coord[4], #double
+        #     coord[3] #double
+        # ]
         msg = struct.pack('<qqq16sddddd',ID, int(round(time.time() * 1000)), vType, vModel, coord[0], coord[1], coord[2], coord[4], coord[3])
         # print(len(msg))
         crypto = rsa.encrypt(msg, pub)
