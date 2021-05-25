@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Graphhopper version f26d6fd19e2d282f663045364d47ca8b9458546b" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2021-05-20T23:25:55Z</time></metadata>
+<wpt lat="55.759147" lon="37.584926"> <name>Садовая-Кудринская улица</name></wpt>
+<wpt lat="55.773528" lon="37.621336"> <name>waypoint 1</name></wpt>
+<wpt lat="55.750847" lon="37.655782"> <name>waypoint 2</name></wpt>
+<wpt lat="55.729749" lon="37.619062"> <name>waypoint 3</name></wpt>
+<wpt lat="55.758946" lon="37.584834"> <name>arrive at destination</name></wpt>
+<rte>
+<rtept lat="55.759147" lon="37.584926"><desc>continue onto Садовая-Кудринская улица</desc><extensions><gh:distance>2549.0</gh:distance><gh:time>233596</gh:time><gh:direction>N</gh:direction><gh:azimuth>17.03</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="55.773379" lon="37.613435"><desc>keep right onto Садовая-Самотёчная улица</desc><extensions><gh:distance>495.0</gh:distance><gh:time>55686</gh:time><gh:direction>E</gh:direction><gh:azimuth>95.02</gh:azimuth><gh:sign>7</gh:sign></extensions></rtept>
+<rtept lat="55.773528" lon="37.621336"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:direction>E</gh:direction><gh:azimuth>90.0</gh:azimuth><gh:sign>5</gh:sign></extensions></rtept>
+<rtept lat="55.773528" lon="37.621336"><desc>continue onto Самотёчная площадь</desc><extensions><gh:distance>17.6</gh:distance><gh:time>1978</gh:time><gh:direction>E</gh:direction><gh:azimuth>89.73</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="55.773529" lon="37.621617"><desc>continue onto Садовая-Сухаревская улица</desc><extensions><gh:distance>1726.6</gh:distance><gh:time>159047</gh:time><gh:direction>E</gh:direction><gh:azimuth>91.57</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="55.769093" lon="37.647666"><desc>keep right onto Садовая-Спасская улица</desc><extensions><gh:distance>2272.0</gh:distance><gh:time>226987</gh:time><gh:direction>SE</gh:direction><gh:azimuth>124.37</gh:azimuth><gh:sign>7</gh:sign></extensions></rtept>
+<rtept lat="55.750847" lon="37.655782"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:direction>E</gh:direction><gh:azimuth>90.0</gh:azimuth><gh:sign>5</gh:sign></extensions></rtept>
+<rtept lat="55.750847" lon="37.655782"><desc>continue onto улица Земляной Вал</desc><extensions><gh:distance>216.8</gh:distance><gh:time>20537</gh:time><gh:direction>S</gh:direction><gh:azimuth>182.5</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="55.748903" lon="37.655596"><desc>continue onto улица Земляной Вал</desc><extensions><gh:distance>3533.3</gh:distance><gh:time>316964</gh:time><gh:direction>S</gh:direction><gh:azimuth>180.99</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="55.729749" lon="37.619062"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:direction>E</gh:direction><gh:azimuth>90.0</gh:azimuth><gh:sign>5</gh:sign></extensions></rtept>
+<rtept lat="55.729749" lon="37.619062"><desc>continue onto Садовое кольцо</desc><extensions><gh:distance>4616.7</gh:distance><gh:time>415750</gh:time><gh:direction>W</gh:direction><gh:azimuth>268.41</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="55.758946" lon="37.584834"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk><name>GraphHopper Track</name><trkseg>
+<trkpt lat="55.759147" lon="37.584926"><ele>151.62</ele><time>2021-05-20T23:25:55Z</time></trkpt>
+<trkpt lat="55.759514" lon="37.585126"><ele>151.87</ele></trkpt>
+<trkpt lat="55.76036" lon="37.585672"><ele>154.0</ele></trkpt>
+<trkpt lat="55.761376" lon="37.586396"><ele>152.66</ele></trkpt>
+<trkpt lat="55.762203" lon="37.587024"><ele>151.51</ele></trkpt>
+<trkpt lat="55.763414" lon="37.587975"><ele>152.16</ele></trkpt>
+<trkpt lat="55.763877" lon="37.588395"><ele>154.83</ele></trkpt>
+<trkpt lat="55.764406" lon="37.58893"><ele>156.49</ele></trkpt>
+<trkpt lat="55.764712" lon="37.589271"><ele>155.18</ele></trkpt>
+<trkpt lat="55.765293" lon="37.59003"><ele>154.31</ele></trkpt>
+<trkpt lat="55.768124" lon="37.594038"><ele>161.53</ele></trkpt>
+<trkpt lat="55.769021" lon="37.595478"><ele>162.72</ele></trkpt>
+<trkpt lat="55.770221" lon="37.597756"><ele>164.36</ele></trkpt>
+<trkpt lat="55.77062" lon="37.598634"><ele>164.26</ele></trkpt>
+<trkpt lat="55.770967" lon="37.599545"><ele>163.65</ele></trkpt>
+<trkpt lat="55.771328" lon="37.600688"><ele>163.27</ele></trkpt>
+<trkpt lat="55.771499" lon="37.60141"><ele>162.59</ele></trkpt>
+<trkpt lat="55.77238" lon="37.60447"><ele>160.16</ele></trkpt>
+<trkpt lat="55.772541" lon="37.60521"><ele>159.19</ele></trkpt>
+<trkpt lat="55.772857" lon="37.607306"><ele>161.77</ele></trkpt>
+<trkpt lat="55.772979" lon="37.608254"><ele>159.78</ele></trkpt>
+<trkpt lat="55.773061" lon="37.609052"><ele>157.9</ele></trkpt>
+<trkpt lat="55.773215" lon="37.610632"><ele>157.64</ele></trkpt>
+<trkpt lat="55.773307" lon="37.611748"><ele>158.11</ele></trkpt>
+<trkpt lat="55.773379" lon="37.613435"><ele>156.92</ele><time>2021-05-20T23:29:49Z</time></trkpt>
+<trkpt lat="55.773357" lon="37.613891"><ele>156.44</ele></trkpt>
+<trkpt lat="55.77335" lon="37.61491"><ele>156.4</ele></trkpt>
+<trkpt lat="55.773527" lon="37.620853"><ele>145.5</ele></trkpt>
+<trkpt lat="55.773528" lon="37.621336"><ele>146.03</ele><time>2021-05-20T23:30:44Z</time></trkpt>
+<trkpt lat="55.773528" lon="37.621336"><ele>146.03</ele><time>2021-05-20T23:30:44Z</time></trkpt>
+<trkpt lat="55.773529" lon="37.621617"><ele>146.56</ele><time>2021-05-20T23:30:46Z</time></trkpt>
+<trkpt lat="55.773483" lon="37.624599"><ele>151.15</ele></trkpt>
+<trkpt lat="55.773259" lon="37.628197"><ele>158.13</ele></trkpt>
+<trkpt lat="55.772676" lon="37.63229"><ele>159.21</ele></trkpt>
+<trkpt lat="55.772651" lon="37.632589"><ele>159.09</ele></trkpt>
+<trkpt lat="55.772508" lon="37.633728"><ele>158.69</ele></trkpt>
+<trkpt lat="55.772288" lon="37.635821"><ele>159.79</ele></trkpt>
+<trkpt lat="55.772045" lon="37.637342"><ele>159.4</ele></trkpt>
+<trkpt lat="55.771932" lon="37.637889"><ele>157.83</ele></trkpt>
+<trkpt lat="55.771806" lon="37.638393"><ele>157.69</ele></trkpt>
+<trkpt lat="55.771558" lon="37.639259"><ele>156.7</ele></trkpt>
+<trkpt lat="55.769603" lon="37.64566"><ele>155.05</ele></trkpt>
+<trkpt lat="55.769474" lon="37.646125"><ele>156.0</ele></trkpt>
+<trkpt lat="55.769093" lon="37.647666"><ele>159.75</ele><time>2021-05-20T23:33:25Z</time></trkpt>
+<trkpt lat="55.768939" lon="37.648067"><ele>161.7</ele></trkpt>
+<trkpt lat="55.768562" lon="37.649383"><ele>162.06</ele></trkpt>
+<trkpt lat="55.768334" lon="37.649997"><ele>164.02</ele></trkpt>
+<trkpt lat="55.768226" lon="37.650187"><ele>164.0</ele></trkpt>
+<trkpt lat="55.766494" lon="37.652584"><ele>160.04</ele></trkpt>
+<trkpt lat="55.764921" lon="37.654916"><ele>158.0</ele></trkpt>
+<trkpt lat="55.76415" lon="37.656023"><ele>155.86</ele></trkpt>
+<trkpt lat="55.763896" lon="37.656265"><ele>154.11</ele></trkpt>
+<trkpt lat="55.762652" lon="37.656918"><ele>152.72</ele></trkpt>
+<trkpt lat="55.762344" lon="37.65705"><ele>152.95</ele></trkpt>
+<trkpt lat="55.761772" lon="37.65725"><ele>152.59</ele></trkpt>
+<trkpt lat="55.761339" lon="37.657354"><ele>150.77</ele></trkpt>
+<trkpt lat="55.760396" lon="37.65748"><ele>154.22</ele></trkpt>
+<trkpt lat="55.759347" lon="37.657564"><ele>156.88</ele></trkpt>
+<trkpt lat="55.758406" lon="37.65761"><ele>154.32</ele></trkpt>
+<trkpt lat="55.757646" lon="37.657592"><ele>153.29</ele></trkpt>
+<trkpt lat="55.757081" lon="37.657529"><ele>153.78</ele></trkpt>
+<trkpt lat="55.75656" lon="37.657422"><ele>154.32</ele></trkpt>
+<trkpt lat="55.755494" lon="37.657136"><ele>155.42</ele></trkpt>
+<trkpt lat="55.754752" lon="37.656873"><ele>155.51</ele></trkpt>
+<trkpt lat="55.752484" lon="37.655903"><ele>155.1</ele></trkpt>
+<trkpt lat="55.752091" lon="37.655858"><ele>154.54</ele></trkpt>
+<trkpt lat="55.750847" lon="37.655782"><ele>141.1</ele><time>2021-05-20T23:37:12Z</time></trkpt>
+<trkpt lat="55.750847" lon="37.655782"><ele>141.1</ele><time>2021-05-20T23:37:12Z</time></trkpt>
+<trkpt lat="55.749733" lon="37.655695"><ele>132.57</ele></trkpt>
+<trkpt lat="55.748903" lon="37.655596"><ele>131.55</ele><time>2021-05-20T23:37:33Z</time></trkpt>
+<trkpt lat="55.748564" lon="37.655586"><ele>132.53</ele></trkpt>
+<trkpt lat="55.744711" lon="37.655107"><ele>131.58</ele></trkpt>
+<trkpt lat="55.744203" lon="37.655015"><ele>133.86</ele></trkpt>
+<trkpt lat="55.743004" lon="37.654641"><ele>139.38</ele></trkpt>
+<trkpt lat="55.742673" lon="37.654492"><ele>144.87</ele></trkpt>
+<trkpt lat="55.742385" lon="37.654332"><ele>144.65</ele></trkpt>
+<trkpt lat="55.742096" lon="37.654131"><ele>144.43</ele></trkpt>
+<trkpt lat="55.741722" lon="37.653796"><ele>144.1</ele></trkpt>
+<trkpt lat="55.741349" lon="37.65342"><ele>143.76</ele></trkpt>
+<trkpt lat="55.74103" lon="37.653036"><ele>143.44</ele></trkpt>
+<trkpt lat="55.740233" lon="37.651964"><ele>142.57</ele></trkpt>
+<trkpt lat="55.739062" lon="37.650282"><ele>138.21</ele></trkpt>
+<trkpt lat="55.735534" lon="37.645077"><ele>127.86</ele></trkpt>
+<trkpt lat="55.734544" lon="37.64365"><ele>125.0</ele></trkpt>
+<trkpt lat="55.734418" lon="37.643444"><ele>125.0</ele></trkpt>
+<trkpt lat="55.733453" lon="37.641598"><ele>122.61</ele></trkpt>
+<trkpt lat="55.732832" lon="37.640461"><ele>125.45</ele></trkpt>
+<trkpt lat="55.732551" lon="37.639978"><ele>126.99</ele></trkpt>
+<trkpt lat="55.731972" lon="37.639069"><ele>127.77</ele></trkpt>
+<trkpt lat="55.731788" lon="37.638709"><ele>127.56</ele></trkpt>
+<trkpt lat="55.731638" lon="37.63834"><ele>127.35</ele></trkpt>
+<trkpt lat="55.731354" lon="37.637542"><ele>126.9</ele></trkpt>
+<trkpt lat="55.731242" lon="37.637107"><ele>127.08</ele></trkpt>
+<trkpt lat="55.73111" lon="37.636468"><ele>127.13</ele></trkpt>
+<trkpt lat="55.730403" lon="37.630054"><ele>134.43</ele></trkpt>
+<trkpt lat="55.730274" lon="37.629116"><ele>135.01</ele></trkpt>
+<trkpt lat="55.729949" lon="37.626061"><ele>138.17</ele></trkpt>
+<trkpt lat="55.729868" lon="37.625148"><ele>137.16</ele></trkpt>
+<trkpt lat="55.729749" lon="37.619062"><ele>138.72</ele><time>2021-05-20T23:42:50Z</time></trkpt>
+<trkpt lat="55.729749" lon="37.619062"><ele>138.72</ele><time>2021-05-20T23:42:50Z</time></trkpt>
+<trkpt lat="55.729703" lon="37.616114"><ele>139.0</ele></trkpt>
+<trkpt lat="55.729702" lon="37.615164"><ele>139.03</ele></trkpt>
+<trkpt lat="55.729725" lon="37.614539"><ele>139.14</ele></trkpt>
+<trkpt lat="55.729781" lon="37.613705"><ele>137.68</ele></trkpt>
+<trkpt lat="55.729856" lon="37.612942"><ele>136.35</ele></trkpt>
+<trkpt lat="55.729966" lon="37.612219"><ele>135.07</ele></trkpt>
+<trkpt lat="55.730168" lon="37.61122"><ele>131.42</ele></trkpt>
+<trkpt lat="55.730343" lon="37.610588"><ele>129.52</ele></trkpt>
+<trkpt lat="55.735501" lon="37.594474"><ele>131.36</ele></trkpt>
+<trkpt lat="55.737175" lon="37.589999"><ele>139.66</ele></trkpt>
+<trkpt lat="55.738386" lon="37.586954"><ele>140.02</ele></trkpt>
+<trkpt lat="55.7385" lon="37.586697"><ele>140.37</ele></trkpt>
+<trkpt lat="55.738671" lon="37.58638"><ele>140.82</ele></trkpt>
+<trkpt lat="55.738835" lon="37.586162"><ele>141.13</ele></trkpt>
+<trkpt lat="55.739026" lon="37.585993"><ele>141.45</ele></trkpt>
+<trkpt lat="55.739665" lon="37.585603"><ele>142.32</ele></trkpt>
+<trkpt lat="55.740536" lon="37.585156"><ele>142.44</ele></trkpt>
+<trkpt lat="55.741252" lon="37.584855"><ele>144.64</ele></trkpt>
+<trkpt lat="55.743761" lon="37.583885"><ele>147.91</ele></trkpt>
+<trkpt lat="55.746776" lon="37.582645"><ele>149.35</ele></trkpt>
+<trkpt lat="55.747019" lon="37.582618"><ele>147.37</ele></trkpt>
+<trkpt lat="55.749773" lon="37.582966"><ele>139.17</ele></trkpt>
+<trkpt lat="55.754868" lon="37.583841"><ele>153.93</ele></trkpt>
+<trkpt lat="55.755229" lon="37.58396"><ele>153.69</ele></trkpt>
+<trkpt lat="55.758521" lon="37.584682"><ele>150.57</ele></trkpt>
+<trkpt lat="55.758946" lon="37.584834"><ele>151.21</ele><time>2021-05-20T23:49:46Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>
