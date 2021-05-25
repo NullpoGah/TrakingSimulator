@@ -125,7 +125,23 @@ def send_coords(coords, rate, address):
     ID = int(np.round(np.random.normal(148822899220, 1000000000)))
     vType = 1
     vModel = 'Toyota Corolla'.encode('ascii')
-    (pub, priv) = rsa.newkeys(1024)
+    path_to_public = Path('./public.pem')
+    path_to_private = Path('./private.pem')
+    if path_to_public.exists():
+        with open(path_to_public, 'rb') as f:
+            public_file = f.read()
+        with open(path_to_private, 'rb') as f:
+            private_file = f.read()
+        pub = rsa.PublicKey.load_pkcs1(public_file)
+        priv = rsa.PrivateKey.load_pkcs1(private_file)
+    else:
+        (pub, priv) = rsa.newkeys(1024)
+        pub.save_pkcs1()
+        priv.save_pkcs1()
+        with open ("private.pem", "w") as prv_file:
+            print("{}".format(priv.save_pkcs1().decode()), file=prv_file)
+        with open ("public.pem", "w") as pub_file:
+            print("{}".format(pub.save_pkcs1().decode()), file=pub_file)
     logger.info('Sender parsing adress')
     host, port = split_host_port(address)
     if port == None:
