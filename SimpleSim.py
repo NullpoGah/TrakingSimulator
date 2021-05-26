@@ -111,11 +111,11 @@ def send_coords(coords, rate, address):
     """
     Message sender
     Message format:
-        BYTES: <qqqddddd
+        BYTES: <qq16sqddddd
             1. Vehicle ID - long long
-            2. Unix timestamp - long long
-            3. Vehicle type - long long
-            4. Vehicle model - char[16]
+            2. Vehicle type - long long
+            3. Vehicle model - char[16]
+            4. Unix timestamp - long long
             5. Latitude - double
             6. Longtitude - double
             7. Altitude - double
@@ -155,25 +155,21 @@ def send_coords(coords, rate, address):
         return
     logger.info("Car ID {} starts its moving.".format(str(ID)))
     for coord in coords:
-        # ID = 148822899220
-        
-        # msg = [
-        #     ID, # long long
-        #     time.time(), # long long
-        #     vType, # long long
-        #     vModel, 
-        #     coord[0], #double
-        #     coord[1], #double
-        #     coord[2], #double
-        #     coord[4], #double
-        #     coord[3] #double
-        # ]
-        msg = struct.pack('<qqq16sddddd',ID, int(round(time.time() * 1000)), vType, vModel, coord[0], coord[1], coord[2], coord[4], coord[3])
+        #         1. Vehicle ID - long long
+        #         2. Vehicle type - long long
+        #         3. Vehicle model - char[16]
+        #         4. Unix timestamp - long long
+        #         5. Latitude - double
+        #         6. Longtitude - double
+        #         7. Altitude - double
+        #         8. Velocity - double
+        #         9. Course(bearing in degrees) - double
+        msg = struct.pack('<qq16sqddddd', ID, vType, vModel, int(round(time.time() * 1000)), coord[0], coord[1], coord[2], coord[4], coord[3])
         # print(len(msg))
         crypto = rsa.encrypt(msg, pub)
         # print(len(crypto) == rsa.common.byte_size(pub.n))
         key = pub.n # modulus SUS -> int to bytes 128 little
-        signature = hmac.new(key.to_bytes(128, 'little'), crypto, hashlib.sha256)
+        signature = hmac.new(key.to_bytes(128, 'big'), crypto, hashlib.sha256)
         finalMessage = crypto + signature.digest()
         sock.sendto(finalMessage, (host, port))
         logger.debug('Sender sent message')
@@ -181,11 +177,11 @@ def send_coords(coords, rate, address):
         # print(signature.digest_size)
         # message = rsa.decrypt(crypto, priv)
         # print(message)
-        # print(struct.unpack('<qqq16sddddd', message))
+        print(struct.unpack('<qq16sqddddd', msg))
         time.sleep(rate)
     # print(np.max(sizes))
     # print(rsa.common.byte_size(pub.n))
-    # print(struct.calcsize('<qqq16sddddd'))
+    # print(struct.calcsize('<qq16sqddddd'))
     
 
 
